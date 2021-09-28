@@ -1,0 +1,15 @@
+h1{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+}
+p{
+    color: blue;
+}
+
+.test-class_1{
+    color: green;
+}
+.h1{
+    text-decoration: underline;
+}
