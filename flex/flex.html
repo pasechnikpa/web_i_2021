@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+        }
+        .flex{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            gap: 10px 20px;
+            flex-direction: column;
+            height: 500px;
+            flex-wrap: wrap;
+        }
+        .link{
+            display: block;
+        }
+        .block1, .block2, .block3{
+            width: 300px;
+            border: 1px solid;
+            background: #cccccc;;
+        }
+        .block3{
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="block1">
+            1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis eaque distinctio odit veniam voluptas eos dolore eius fuga a! Cupiditate quis praesentium velit neque adipisci nostrum autem quisquam. Dolore.
+            1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis eaque distinctio odit veniam voluptas eos dolore eius fuga a! Cupiditate quis praesentium velit neque adipisci nostrum autem quisquam. Dolore.
+        </div>
+        <div class="block2">2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis eaque distinctio odit veniam voluptas eos dolore eius fuga a! Cupiditate quis praesentium velit neque adipisci nostrum autem quisquam. Dolore.</div>
+        <div class="block3">3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis eaque distinctio odit veniam voluptas eos dolore eius fuga a! Cupiditate quis praesentium velit neque adipisci nostrum autem quisquam. Dolore.</div>
+    </div>
+</body>
+</html>
